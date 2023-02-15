@@ -7,7 +7,6 @@
   }
 
   body {
-      font-family: Georgia, 'Times New Roman', Times, serif;
       background-color: #218DB8;
       font-family: 'Kanit', sans-serif;
   }
@@ -45,7 +44,7 @@
   }
 
   .cadastrar button {
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: 'Kanit', sans-serif;
       font-weight: 600;
       background-color: #ffffff;
       width: 160px;
@@ -54,7 +53,8 @@
   }
 
   .cadastrar button:hover {
-      background-color: rgb(82, 168, 154);
+      background-color: #13526B;
+      color: white;
   }
 
   table {
@@ -71,7 +71,19 @@
       padding: 10px 110px 10px 10px;
   }
 
-  .cores {
-      background-color: #13526B;
-      color: #72CBEE;
+  .modal-container {
+      position: relative;
+      display: flex;
+      background-color: rgb(255, 255, 255);
+      width: 600px;
+      height: 300px;
+      margin: -400px auto 0;
+      box-shadow: rgba(0, 0, 0, 0.80) 0px 5px 15px;
+  }
+
+  .modal {
+      width: 590px;
+      height: 290px;
+      margin: auto;
+      border: 1px solid black;
   }
