@@ -5,16 +5,15 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 
 
 ## Objetivos
-- [] Criar layout responsivo.
-- [] Criar tabela.
-- [] Criar cadastro do cliente.
-- [] Visualizar cadastro do cliente.
-- [] Editar cadastro do cliente.
-- [] Excluir cadastro do cliente.
+- [X] Criar tabela.
+- [X] Criar botão cadastro de cliente.
+- [] Criar função botão cadastro do cliente.
+- [] Criar função visualizar cadastro do cliente.
+- [] Criar função editar cadastro do cliente.
+- [] Criar função excluir cadastro do cliente.
 
 ## Extras
 
-- [] Layout responsivo.
 - [] Tema Dark.
 
 
