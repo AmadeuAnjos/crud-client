@@ -76,19 +76,64 @@
       display: none;
       background-color: rgb(255, 255, 255);
       width: 600px;
-      height: 300px;
-      top: 180px;
+      height: 210px;
+      top: 250px;
       left: 400px;
       box-shadow: rgba(0, 0, 0, 0.80) 0px 5px 15px;
   }
 
   .modal {
+      display: flex;
+      flex-wrap: wrap;
       width: 590px;
-      height: 290px;
+      height: 200px;
       margin: auto;
-      border: 1px solid black;
+  }
+
+  .margem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 40px;
+      background-color: #13526B;
+      color: white;
+  }
+
+  .modal form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
 
   .active {
       display: flex;
+  }
+
+  .modal-container input {
+      width: 280px;
+      height: 40px;
+      margin: 6px;
+  }
+
+  .botoes {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .botoes button {
+      font-family: 'Kanit', sans-serif;
+      font-weight: 600;
+      background-color: #ffffff;
+      width: 160px;
+      height: 40px;
+      border: 1px solid #13526B;
+      margin: 10px;
+  }
+
+  .botoes button:hover {
+      background-color: #13526B;
+      color: white;
   }
