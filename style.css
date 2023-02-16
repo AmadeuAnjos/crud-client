@@ -72,12 +72,13 @@
   }
 
   .modal-container {
-      position: relative;
-      display: flex;
+      position: fixed;
+      display: none;
       background-color: rgb(255, 255, 255);
       width: 600px;
       height: 300px;
-      margin: -400px auto 0;
+      top: 180px;
+      left: 400px;
       box-shadow: rgba(0, 0, 0, 0.80) 0px 5px 15px;
   }
 
@@ -86,4 +87,8 @@
       height: 290px;
       margin: auto;
       border: 1px solid black;
+  }
+
+  .active {
+      display: flex;
   }

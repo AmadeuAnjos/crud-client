@@ -8,6 +8,8 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 ## Objetivos
 - [X] Criar tabela.
 - [X] Criar botão cadastro de cliente.
+- [X] Criar modal.
+- [] Criar função modal.
 - [] Criar função botão cadastro do cliente.
 - [] Criar função visualizar cadastro do cliente.
 - [] Criar função editar cadastro do cliente.

@@ -22,7 +22,7 @@
     <div class="container">
         <div class="tabela">
             <div class="cadastrar">
-                <button>Cadastrar Cliente</button>
+                <button class="btnAbrir" onclick="abrirModal" id="btnAbrir">Cadastrar Cliente</button>
             </div>
             <table>
                 <thead>
@@ -39,8 +39,11 @@
     <div class="modal-container">
         <div class="modal">
             <form action="">
-                <label for="">Nome</label>
-                <input type="text" placeholder="Digite seu nome aqui" id="modal">
+                <label for="">Nome</label><br>
+                <input type="text" placeholder="Digite seu nome aqui" id="modal" size="60px">
+                <div class="botoes">
+                    <button class="bntClose" onclick="cancelButton" id="cancelButton">Close</button>
+                </div>
             </form>
         </div>
     </div>
