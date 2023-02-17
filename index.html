@@ -31,26 +31,30 @@
                     <th>Email</th>
                     <th>Cidade</th>
                     <th>Ação</th>
+                    <!-- <th class="acao">Editar</th>
+                    <th class="acao">Excluir</th> -->
                 </thead>
             </table>
         </div>
     </div>
 
     <div class="modal-container">
-        <div class="modal">
-            <div class="margem">
-                <h1>Cadastro de cliente</h1>
-            </div>
-            <form action="">
-                <input type="text" placeholder="Nome" id="modal">
-                <input type="text" placeholder="Telefone" id="modal">
-                <input type="text" placeholder="Email" id="modal">
-                <input type="text" placeholder="Cidade" id="modal">
-                <div class="botoes">
-                    <button class="bntClose" onclick="fecharModal()">Cadastrar</button>
-                    <button class="bntClose" onclick="fecharModal2()">Fechar</button>
+        <div class="modal-white">
+            <div class="modal">
+                <div class="margem">
+                    <h1>Cadastro de cliente</h1>
                 </div>
-            </form>
+                <form action="">
+                    <input type="text" placeholder="Nome" id="name">
+                    <input type="text" placeholder="Telefone" id="phone">
+                    <input type="text" placeholder="Email" id="email">
+                    <input type="text" placeholder="Cidade" id="city">
+                    <div class="botoes">
+                        <button class="bntCad" onclick="fecharModal()">Cadastrar</button>
+                        <button class="bntClose" onclick="fecharModal2()">Fechar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
