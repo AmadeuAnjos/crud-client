@@ -20,7 +20,12 @@ function fecharModal(edit = false, index = 0) {
     alert('Cadastrado com sucesso !')
 }
 
-loadItens() {
-    items = getItensBD()
+function loadItens() {
+    itens = getItensBD()
     tbody.innerHTML = ''
+    itens.forEach((item, index) => {
+        insertItem(item, index)
+    })
 }
+
+loadItens()
