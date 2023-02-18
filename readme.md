@@ -10,10 +10,11 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 - [X] Criar botão cadastro de cliente.
 - [X] Criar modal.
 - [X] Criar função modal.
-- [X] Criar função botão cadastro do cliente.
-- [] Criar função visualizar cadastro do cliente.
+- [X] Criar função cadastro de cliente
+- [X] Criar função visualizar cadastro do cliente.
 - [] Criar função editar cadastro do cliente.
 - [] Criar função excluir cadastro do cliente.
+- [] Criar função botão cadastro do cliente.
 
 ## Extras
 

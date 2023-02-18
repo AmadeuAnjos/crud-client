@@ -27,3 +27,5 @@ const createClient = (client) => {
     dbClient.push(client)
     setLocalStorage(dbClient)
 }
+const readClient = () => getLocalStorage()
+
