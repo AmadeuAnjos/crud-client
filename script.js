@@ -10,13 +10,20 @@ function fecharModal(edit = false, index = 0) {
 }
 
 const tempClient = {
-    nome: "Amadeu Anjos",
+    nome: "Johnny",
     email: "anjosbarrosclean@gmail.com",
     telefone: "(11) 99554-14999",
     cidade: "São Bernardo do Campo"
 }
 
+const getLocalStorage = () => JSON.parse(localStorage.getItem('dbClient')) ?? []
+const setLocalStorage = (dbClient) => localStorage.setItem("dbClient", JSON.stringify(dbClient))
+
 //CRUD
+
+//CREATE
 const createClient = (client) => {
-    localStorage.setItem("db_client", JSON.stringify(client))
+    const dbClient = getLocalStorage()
+    dbClient.push(client)
+    setLocalStorage(dbClient)
 }
