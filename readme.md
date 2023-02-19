@@ -13,7 +13,7 @@ Página para cadastro de cliente, podemos fazer a vizualização dos clientes ca
 - [X] Criar função cadastro de cliente
 - [X] Criar função visualizar cadastro do cliente.
 - [X] Criar função editar cadastro do cliente.
-- [] Criar função excluir cadastro do cliente.
+- [X] Criar função excluir cadastro do cliente.
 - [] Criar função botão cadastro do cliente.
 
 ## Extras
